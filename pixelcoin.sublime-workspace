@@ -116,10 +116,10 @@
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
+			"file": "app/assets/javascripts/pixels.js.erb",
 			"settings":
 			{
-				"buffer_size": 1174,
+				"buffer_size": 618,
 				"line_ending": "Unix"
 			}
 		},
@@ -127,15 +127,15 @@
 			"file": "app/controllers/static_pages_controller.rb",
 			"settings":
 			{
-				"buffer_size": 99,
+				"buffer_size": 176,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/routes.rb",
+			"file": "app/helpers/static_pages_helper.rb",
 			"settings":
 			{
-				"buffer_size": 153,
+				"buffer_size": 240,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +143,23 @@
 			"file": "app/views/static_pages/home.html.erb",
 			"settings":
 			{
-				"buffer_size": 1,
+				"buffer_size": 939,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/global_constants.rb",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1140,
 				"line_ending": "Unix"
 			}
 		}
@@ -151,19 +167,19 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 285.0,
 		"selected_items":
 		[
 			[
-				"pack ins",
+				"Package Control: ",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Discover Packages"
+				"pack ins",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 530.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -180,6 +196,22 @@
 	},
 	"file_history":
 	[
+		"/home/assaf/rails_projects/pixelcoin/app/views/static_pages/home.html.erb",
+		"/home/assaf/rails_projects/pixelcoin/app/views/layouts/application.slim",
+		"/home/assaf/rails_projects/pixelcoin/app/views/layouts/_debug.slim",
+		"/home/assaf/rails_projects/pixelcoin/app/assets/javascripts/scripts.js",
+		"/home/assaf/rails_projects/pixelcoin/Gemfile",
+		"/home/assaf/rails_projects/pixelcoin/app/controllers/static_pages_controller.rb",
+		"/home/assaf/rails_projects/pixelcoin/config/initializers/global_constants.rb",
+		"/home/assaf/rails_projects/pixelcoin/config/routes.rb",
+		"/home/assaf/rails_projects/pixelcoin/app/views/layouts/layouts/_debug.slim",
+		"/home/assaf/rails_projects/pixelcoin/app/views/layouts/layouts/application.slim",
+		"/home/assaf/rails_projects/pixelcoin/app/views/static_pages/home.slim",
+		"/home/assaf/rails_projects/pixelcoin/app/views/static_pages/_script.slim",
+		"/home/assaf/rails_projects/pixelcoin/app/assets/javascripts/application.js",
+		"/home/assaf/rails_projects/pixelcoin/app/helpers/static_pages_helper.rb",
+		"/home/assaf/rails_projects/pixelcoin/app/assets/javascripts/static_pages.js",
+		"/home/assaf/rails_projects/pixelcoin/app/assets/javascripts/static_pages.js.coffee",
 		"/home/assaf/rails_projects/bitmonitor/app/helpers/monitor.rb",
 		"/home/assaf/rails_projects/bitmonitor/config/schedule.rb",
 		"/home/assaf/rails_projects/bitmonitor/.rvmrc",
@@ -291,8 +323,7 @@
 		"/home/assaf/Rails_Projects/sample_app/Gemfile",
 		"/home/assaf/Rails_Projects/sample_app/Guardfile",
 		"/home/assaf/Downloads/bas",
-		"/home/assaf/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings",
-		"/home/assaf/.config/sublime-text-2/Packages/RubyTest/RubyTest.sublime-settings"
+		"/home/assaf/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings"
 	],
 	"find":
 	{
@@ -300,7 +331,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 102.0,
 		"where_history":
 		[
 			""
@@ -311,6 +342,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" | ",
+			"  | ",
+			"result",
 			"def get_json",
 			"def get_balance",
 			"def add_addr_button",
@@ -369,31 +403,31 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
+					"file": "app/assets/javascripts/pixels.js.erb",
 					"settings":
 					{
-						"buffer_size": 1174,
+						"buffer_size": 618,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								514,
-								514
+								618,
+								618
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 156.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -403,15 +437,15 @@
 					"file": "app/controllers/static_pages_controller.rb",
 					"settings":
 					{
-						"buffer_size": 99,
+						"buffer_size": 176,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								87,
-								87
+								176,
+								176
 							]
 						],
 						"settings":
@@ -426,18 +460,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "config/routes.rb",
+					"file": "app/helpers/static_pages_helper.rb",
 					"settings":
 					{
-						"buffer_size": 153,
+						"buffer_size": 240,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								148,
-								148
+								240,
+								240
 							]
 						],
 						"settings":
@@ -457,20 +491,74 @@
 					"file": "app/views/static_pages/home.html.erb",
 					"settings":
 					{
-						"buffer_size": 1,
+						"buffer_size": 939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								240,
+								240
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/initializers/global_constants.rb",
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								672,
+								672
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -527,6 +615,14 @@
 		"selected_items":
 		[
 			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"a",
+				"app/assets/javascripts/application.js"
+			],
+			[
 				"rou",
 				"config/routes.rb"
 			],
@@ -537,10 +633,6 @@
 			[
 				"for",
 				"lib/tasks/for_testing.rake"
-			],
-			[
-				"gem",
-				"Gemfile"
 			],
 			[
 				"as",

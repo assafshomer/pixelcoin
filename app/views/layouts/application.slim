@@ -1,0 +1,14 @@
+doctype HTML
+html
+  head
+    title
+      = @title
+    = render 'layouts/favicon'
+    = render 'layouts/shim'
+  body
+    = render 'layouts/includes'
+    = render 'layouts/flash'
+    = yield
+    = render 'layouts/debug'
+    = render 'layouts/scripts'
+ 
