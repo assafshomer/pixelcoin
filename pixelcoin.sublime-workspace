@@ -1,0 +1,766 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addr"
+			],
+			[
+				"get",
+				"get_balances"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"btn",
+				"btn-danger"
+			],
+			[
+				"have",
+				"have_link"
+			],
+			[
+				"Add",
+				"Addresses"
+			],
+			[
+				"i",
+				"i	it { }"
+			],
+			[
+				"have_",
+				"have_link"
+			],
+			[
+				"be",
+				"be	before...end"
+			],
+			[
+				"sub",
+				"subj	subject { }"
+			],
+			[
+				"let",
+				"let!	let bang"
+			],
+			[
+				"the",
+				"therubyracer"
+			],
+			[
+				"cac",
+				"cache_store"
+			],
+			[
+				"review",
+				"review_snippet"
+			],
+			[
+				"Prod",
+				"Product"
+			],
+			[
+				"rev",
+				"Review"
+			],
+			[
+				"in",
+				"injectExample"
+			],
+			[
+				"str",
+				"StringCalculator"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"remem",
+				"remember_token"
+			],
+			[
+				"sign",
+				"sign_in"
+			],
+			[
+				"coo",
+				"cookie_jar"
+			],
+			[
+				"b",
+				"b	before { }"
+			],
+			[
+				"bef",
+				"before"
+			],
+			[
+				"wrong",
+				"wrong_user"
+			],
+			[
+				"d",
+				"def	def … end"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/static_pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 99,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/assaf/rails_projects/bitmonitor/app/helpers/monitor.rb",
+		"/home/assaf/rails_projects/bitmonitor/config/schedule.rb",
+		"/home/assaf/rails_projects/bitmonitor/.rvmrc",
+		"/home/assaf/rails_projects/bitmonitor/spec/models/address_spec.rb",
+		"/home/assaf/rails_projects/bitmonitor/spec/integration/addresses_integration_spec.rb",
+		"/home/assaf/rails_projects/bitmonitor/spec/helpers/addresses_helper_spec.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/helpers/addresses_helper.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/views/addresses/_address.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/models/address.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/views/addresses/_addresses_header.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/controllers/addresses_controller.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/views/addresses/_create_address.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/assets/stylesheets/custom.css.scss",
+		"/home/assaf/rails_projects/bitmonitor/app/views/addresses/index.slim",
+		"/home/assaf/rails_projects/bitmonitor/config/routes.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/helpers/views_helper.rb",
+		"/home/assaf/rails_projects/bitmonitor/Gemfile",
+		"/home/assaf/rails_projects/bitmonitor/config/environments/production.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/assets/javascripts/application.js",
+		"/home/assaf/rails_projects/bitmonitor/config/initializers/global_constants.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/views/layouts/_flash.html.erb",
+		"/home/assaf/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/assaf/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/assaf/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/assaf/rails_projects/bitmonitor/app/views/shared/_error_messages.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/views/addresses/_new_address.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/views/layouts/application.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/views/layouts/_header.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/views/layouts/_footer.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/views/layouts/_favicon.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/views/layouts/_debug.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/views/layouts/_scripts.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/views/addresses/_address_fields.slim",
+		"/home/assaf/rails_projects/bitmonitor/app/views/addresses/_create_address.rb",
+		"/home/assaf/.config/sublime-text-2/Packages/User/RSpec.sublime-settings",
+		"/home/assaf/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+		"/home/assaf/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/assaf/rails_projects/bitmonitor/lib/tasks/sample_data.rake",
+		"/home/assaf/rails_projects/bitmonitor/spec/factories.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/helpers/block_chain_helper.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/helpers/data_collector.rb",
+		"/home/assaf/rails_projects/bitmonitor/spec/helpers/block_chain_helper_spec.rb",
+		"/home/assaf/rails_projects/bitmonitor/spec/helpers/data_collector_spec.rb",
+		"/home/assaf/rails_projects/bitmonitor/config/application.rb",
+		"/home/assaf/rails_projects/bitmonitor/spec/helpers/block_chain_spec.rb",
+		"/home/assaf/rails_projects/bitmonitor/app/views/layouts/application.html.erb",
+		"/home/assaf/rails_projects/bitmonitor/app/views/addresses/index.html.erb",
+		"/home/assaf/rails_projects/bitmonitor/app/helpers/block_chain.rb",
+		"/home/assaf/rails_projects/coincooler/config/initializers/global_constants.rb",
+		"/home/assaf/rails_projects/bitmonitor/spec/spec_helper.rb",
+		"/home/assaf/rails_projects/bitmonitor/Guardfile",
+		"/home/assaf/.rvm/gems/ruby-2.1.1/gems/guard-rspec-2.5.0/lib/guard/rspec/formatter.rb",
+		"/home/assaf/rails_projects/coincooler/app/assets/stylesheets/addresses.css.scss",
+		"/home/assaf/rails_projects/coincooler/app/assets/stylesheets/custom.css.scss",
+		"/home/assaf/rails_projects/.rvmrc",
+		"/home/assaf/Ruby_Projects/.rvmrc",
+		"/home/assaf/rails_projects/scaling-building-blocks/Gemfile",
+		"/home/assaf/rails_projects/scaling-building-blocks/config/database.yml",
+		"/home/assaf/Chef/scaling-workshop-chef.wiki/cp",
+		"/home/assaf/Chef/scaling-workshop-chef.wiki/.rvmrc",
+		"/home/assaf/rails_projects/Prime/.rspec",
+		"/home/assaf/rails_projects/Prime/string_calculator_spec.rb",
+		"/home/assaf/rails_projects/shout/app/views/shared/_post_fields.html.erb",
+		"/home/assaf/rails_projects/shout/app/controllers/posts_controller.rb",
+		"/home/assaf/rails_projects/shout/app/views/posts/new.slim",
+		"/home/assaf/rails_projects/shout/app/views/posts/create.js.erb",
+		"/home/assaf/rails_projects/shout/Gemfile",
+		"/home/assaf/rails_projects/shout/db/schema.rb",
+		"/home/assaf/.rvmrc",
+		"/home/assaf/rails_projects/sample_app/spec/controllers/users_controller_spec.rb",
+		"/home/assaf/rails_projects/sample_app/app/helpers/sessions_helper.rb",
+		"/home/assaf/rails_projects/sample_app/app/controllers/sessions_controller.rb",
+		"/home/assaf/rails_projects/sample_app/app/controllers/users_controller.rb",
+		"/home/assaf/rails_projects/sample_app/spec/support/utilities.rb",
+		"/home/assaf/rails_projects/sample_app/app/helpers/users_helper.rb",
+		"/home/assaf/rails_projects/sample_app/spec/mailers/mailer_spec.rb",
+		"/home/assaf/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/home/assaf/rails_projects/sample_app/.rvmrc",
+		"/home/assaf/.config/sublime-text-2/Packages/.gitignore",
+		"/home/assaf/.config/sublime-text-2/Packages/ASP/ASP.tmLanguage.cache",
+		"/home/assaf/Rails_Projects/.rvmrc",
+		"/home/assaf/Rails_Projects/sample_app/.gemrc",
+		"/home/assaf/.bashrc",
+		"/home/assaf/Rails_Projects/sample_app/app/controllers/users_controller.rb",
+		"/home/assaf/Rails_Projects/sample_app/app/helpers/sessions_helper.rb",
+		"/home/assaf/Rails_Projects/sample_app/spec/requests/user_pages_spec.rb",
+		"/home/assaf/Rails_Projects/sample_app/spec/requests/authentication_pages_spec.rb",
+		"/home/assaf/Rails_Projects/sample_app/spec/support/utilities.rb",
+		"/home/assaf/.gemrc",
+		"/home/assaf/rails_projects/sample_app/Gemfile",
+		"/home/assaf/rails_projects/.gemrc",
+		"/home/assaf/Rails_Projects/sample_app/app/views/layouts/application.html.erb",
+		"/home/assaf/Rails_Projects/sample_app/app/helpers/users_helper.rb",
+		"/home/assaf/Rails_Projects/sample_app/spec/factories.rb",
+		"/home/assaf/Rails_Projects/sample_app/spec/controllers/users_controller_spec.rb",
+		"/home/assaf/Rails_Projects/habtm/db/migrate/20130117235328_create_spams.rb",
+		"/home/assaf/Rails_Projects/habtm/db/migrate/20130117235939_add_users_spams_table.rb",
+		"/home/assaf/Rails_Projects/habtm/app/models/spam.rb",
+		"/home/assaf/Rails_Projects/habtm/app/models/user.rb",
+		"/home/assaf/Rails_Projects/sample_app/spec/models/user_spec.rb",
+		"/home/assaf/Rails_Projects/sample_app/.rvmrc",
+		"/home/assaf/Rails_Projects/fight_spam/.gemrc",
+		"/home/assaf/Rails_Projects/sample_app/app/views/users/edit.html.erb",
+		"/home/assaf/Rails_Projects/sample_app/app/views/layouts/_header.html.erb",
+		"/home/assaf/Rails_Projects/fight_spam/README.md",
+		"/home/assaf/Rails_Projects/fight_spam/.rvmrc",
+		"/home/assaf/Rails_Projects/fight_spam/.gitignore",
+		"/home/assaf/Rails_Projects/sample_app/dummy.txt",
+		"/home/assaf/Rails_Projects/sample_app/Gemfile",
+		"/home/assaf/Rails_Projects/sample_app/Guardfile",
+		"/home/assaf/Downloads/bas",
+		"/home/assaf/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings",
+		"/home/assaf/.config/sublime-text-2/Packages/RubyTest/RubyTest.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"def get_json",
+			"def get_balance",
+			"def add_addr_button",
+			"glob",
+			"deadman",
+			"have_title",
+			"Not a valid Bitcoin Address",
+			"by(1)",
+			"ViewsHelper",
+			"f",
+			"blockchain",
+			"turbolinks",
+			"?",
+			"addr?",
+			"\"alt+w\"",
+			"wrap",
+			"wrap\n",
+			"Quartermaster",
+			"'*'*",
+			"\"*\"",
+			"lost",
+			"auto",
+			"auto_save",
+			"response",
+			"def test_sign_in",
+			"cookies",
+			"def test_sign_in",
+			"gravatar_for",
+			"upon unfollowing",
+			"upon",
+			"should send an email",
+			"#	",
+			"signed_in?",
+			"specify",
+			"specify{",
+			"test_sign_in",
+			"references",
+			"FactoryGirl",
+			"link_to"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 156.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/static_pages_controller.rb",
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 224.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"",
+				"Gemfile"
+			],
+			[
+				"for",
+				"lib/tasks/for_testing.rake"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"as",
+				"spec/models/address_spec.rb"
+			],
+			[
+				"ais",
+				"spec/integration/addresses_integration_spec.rb"
+			],
+			[
+				"ah",
+				"app/helpers/addresses_helper.rb"
+			],
+			[
+				"add",
+				"app/views/addresses/_address.slim"
+			],
+			[
+				"ad",
+				"app/models/address.rb"
+			],
+			[
+				"prod",
+				"config/environments/production.rb"
+			],
+			[
+				"cus",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"app",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"flas",
+				"app/views/layouts/_flash.html.erb"
+			],
+			[
+				"glob",
+				"config/initializers/global_constants.rb"
+			],
+			[
+				"_add",
+				"app/views/addresses/_address.slim"
+			],
+			[
+				"ai",
+				"spec/integration/addresses_integration_spec.rb"
+			],
+			[
+				"inde",
+				"app/views/addresses/index.slim"
+			],
+			[
+				"error",
+				"app/views/shared/_error_messages.html.erb"
+			],
+			[
+				"vh",
+				"app/helpers/views_helper.rb"
+			],
+			[
+				"ac",
+				"app/controllers/addresses_controller.rb"
+			],
+			[
+				"fac",
+				"spec/factories.rb"
+			],
+			[
+				"sam",
+				"lib/tasks/sample_data.rake"
+			],
+			[
+				"ahs",
+				"spec/helpers/addresses_helper_spec.rb"
+			],
+			[
+				"bch",
+				"spec/helpers/block_chain_helper_spec.rb"
+			],
+			[
+				"appl",
+				"config/application.rb"
+			],
+			[
+				"aj",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"gc",
+				"config/initializers/global_constants.rb"
+			],
+			[
+				"bcs",
+				"spec/helpers/block_chain_spec.rb"
+			],
+			[
+				"bc",
+				"app/helpers/block_chain.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"dev",
+				"config/environments/development.rb"
+			],
+			[
+				"ga",
+				"app/views/products/galery.html.erb"
+			],
+			[
+				"postcontr",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"pf",
+				"app/views/shared/_post_fields.html.erb"
+			],
+			[
+				"new",
+				"app/views/posts/new.html.erb"
+			],
+			[
+				"ucs",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"sess",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"sesc",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"uc",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"aps",
+				"spec/requests/authentication_pages_spec.rb"
+			],
+			[
+				"ms",
+				"spec/mailers/mailer_spec.rb"
+			],
+			[
+				"us",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"uh",
+				"app/helpers/users_helper.rb"
+			],
+			[
+				"lay",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"spa",
+				"app/models/spam.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"_form",
+				"app/views/spams/_form.html.erb"
+			],
+			[
+				"n",
+				"app/views/spams/new.html.erb"
+			],
+			[
+				"_hea",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"spec",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"show",
+				"app/views/users/show.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/assaf/Sublime projects/coincooler.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true
+}
