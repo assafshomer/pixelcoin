@@ -23,7 +23,7 @@
       x=e.clientX;
       y=e.clientY;
       cursor="Your Mouse Position Is : " + x + " and " + y ;
-      // pixels = " <%= @pixels.to_json %> ";
+      pixels = " <%= @pixels.as_json.to_s.html_safe %> ";
       // cursor = "Your Bitcoin Address is: "+json(json.length-1);
       document.getElementById("displayArea").innerHTML=cursor
   }
