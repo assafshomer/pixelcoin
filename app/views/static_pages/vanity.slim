@@ -2,5 +2,11 @@ p
   | color:
   = @color
 p
-  | vanity: 
-  = @vanity
+  | address: 
+  = @vanity.addr
+p
+  | public key with encoded RGB: 
+  = @vanity.pub
+p
+  | your private key: 
+  = @vanity.priv

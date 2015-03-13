@@ -14,7 +14,7 @@ class StaticPagesController < ApplicationController
   
   def vanity
     @color = params[:color]
-    @vanity = get_vanity(@color,1)
+    @vanity = get_vanity(@color,'1')
   end
 
 

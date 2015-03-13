@@ -1,6 +1,6 @@
 module VanityHelper
   require "bitcoin"
-  def get_vanity(color='aa', price='0', max_iter=10000)
+  def get_vanity(color='aa', price='0', max_iter=100000)
     n=0
     num = 3
     begin
