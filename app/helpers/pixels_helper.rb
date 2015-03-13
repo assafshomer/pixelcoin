@@ -1,5 +1,7 @@
 module PixelsHelper
   require 'bitcoin'
+  include VanityHelper
+  
   def prepare_pixesl_array(size)
     data = []
     row = []
