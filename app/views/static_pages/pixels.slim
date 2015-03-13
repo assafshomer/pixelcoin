@@ -1,0 +1,5 @@
+table.pixel
+  - @pixels.each do |row|
+    tr
+      -row.each do |pixel|
+        td class="#{pixel[1]}" title="#{pixel[3]}"

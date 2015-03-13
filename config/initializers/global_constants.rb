@@ -1,1 +1,1 @@
-PIXELS = 10
+PIXELS = 100
