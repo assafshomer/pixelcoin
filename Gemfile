@@ -23,12 +23,12 @@ gem 'jbuilder', '~> 1.2'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails'
   gem 'therubyracer', :platforms=>:ruby
   gem 'rb-readline', "~> 0.5.0"
-  # gem 'guard-rspec', '2.5.0'
-  # gem 'spork-rails', github: 'sporkrb/spork-rails'
-  # gem 'guard-spork', '1.5.0'
+  gem 'guard-rspec'
+  gem 'spork-rails', github: 'sporkrb/spork-rails'
+  gem 'guard-spork'
   gem 'childprocess', '0.3.6'
   gem 'pry-rails'
   gem 'pry-byebug'
@@ -39,7 +39,7 @@ end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
+  gem 'capybara'
   gem 'rb-inotify', '0.9.0'
   gem 'libnotify', '0.8.0'
   gem 'rb-fsevent', '0.9.3', :require => false

@@ -7,4 +7,7 @@ module ViewsHelper
 	def billboard_title
 		billboard_header
 	end
+	def app_title
+		'The Blockchain BillBoard'
+	end
 end
