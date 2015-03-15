@@ -17,6 +17,11 @@ module PixelsHelper
   end
 
   def get_color
-    ['red','blue','green','black','white'].sample
+    hex = ['0','3','6','9','c','f']
+    color = ''
+    3.times do
+      color << hex.sample
+    end
+    return '_'+color
   end
 end
