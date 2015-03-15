@@ -8,6 +8,7 @@ describe "Static" do
     it { should have_title app_title }
     it { should have_selector('div.billboard')}
     it { should have_selector('table.pixels')}
+    it { should have_selector('td.pixel')}
   end
 
   
