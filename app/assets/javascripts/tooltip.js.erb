@@ -1,0 +1,7 @@
+<% environment.context_class.instance_eval { include ViewsHelper } %>
+
+$(function(){
+	$('[title]').attr('rel','tooltip');
+	$("[title][rel='tooltip']").attr('data-placement','bottom');
+  $("[rel='tooltip']").tooltip();
+});
