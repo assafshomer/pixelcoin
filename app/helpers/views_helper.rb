@@ -13,4 +13,7 @@ module ViewsHelper
 	def buy_pixels_text
 		'Buy Pixels'
 	end
+	def select_pixels_text
+		'Select Pixels'
+	end
 end
