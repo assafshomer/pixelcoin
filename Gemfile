@@ -52,7 +52,7 @@ end
 
 group :production do
   gem 'pg', '0.15.1'
-  gem 'rails_12factor'  
+  gem 'rails_12factor', group: :production  
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'  
   gem 'ffi'
 end
