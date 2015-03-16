@@ -66,18 +66,22 @@
                   y_max = Math.max(end_y, start_y);
                     $('td.pixel').filter(function() {
                       return $(this).attr("col") >= x_min && $(this).attr("col") <= x_max && $(this).attr("row") >= y_min && $(this).attr("row") <= y_max;
-                    }).addClass('hover');                          
+                    }).addClass('hover');
+                    $('td.pixel').filter(function() {
+                      return $(this).attr("col") < x_min || $(this).attr("col") > x_max || $(this).attr("row") < y_min || $(this).attr("row") > y_max;
+                    }).removeClass('hover');                    
                 };
             });
         $("td.pixel").mouseup(function() {    
           select++;
+          $('td.pixel.hover').removeClass("hover");
           x_min = Math.min(end_x, start_x);
           x_max = Math.max(end_x, start_x);
           y_min = Math.min(end_y, start_y);
           y_max = Math.max(end_y, start_y);          
             $('td.pixel').filter(function() {
               return $(this).attr("col") >= x_min && $(this).attr("col") <= x_max && $(this).attr("row") >= y_min && $(this).attr("row") <= y_max;
-            }).removeClass('hover').css('background-color','white');  
+            }).css('background-color','white');  
           // console.log('sx['+start_x+'], sy['+start_y+'], ex['+end_x+'], ey['+end_y+']');
         });
     });     
