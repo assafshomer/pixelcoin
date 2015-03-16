@@ -9,6 +9,11 @@ describe "Static" do
     it { should have_selector('div.billboard')}
     it { should have_selector('table.pixels')}
     it { should have_selector('td.pixel')}
+    it { should have_xpath("//input[@id='x_min']") }
+    it { should have_xpath("//input[@id='y_min']") }
+    it { should have_xpath("//input[@id='x_max']") }
+    it { should have_xpath("//input[@id='y_max']") }
+    it { should have_button("save") }
   end
 
   

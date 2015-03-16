@@ -10,4 +10,7 @@ module ViewsHelper
 	def app_title
 		'The Blockchain BillBoard'
 	end
+	def buy_pixels_text
+		'Buy Pixels'
+	end
 end

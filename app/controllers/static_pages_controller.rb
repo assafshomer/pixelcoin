@@ -17,5 +17,8 @@ class StaticPagesController < ApplicationController
     @vanity = get_vanity(@color,'1')
   end
 
+  def save
+    
+  end
 
 end

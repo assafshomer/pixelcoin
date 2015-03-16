@@ -81,7 +81,12 @@
           y_max = Math.max(end_y, start_y);          
             $('td.pixel').filter(function() {
               return $(this).attr("col") >= x_min && $(this).attr("col") <= x_max && $(this).attr("row") >= y_min && $(this).attr("row") <= y_max;
-            }).css('background-color','white');  
+            }).css('background-color','white');
+            $('#x_min')[0].value=x_min;
+            $('#y_min')[0].value=y_min;
+            $('#x_max')[0].value=x_max;
+            $('#y_max')[0].value=y_max;
+            $('#buypix').removeClass('hidden');
           // console.log('sx['+start_x+'], sy['+start_y+'], ex['+end_x+'], ey['+end_y+']');
         });
     });     
