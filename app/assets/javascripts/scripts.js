@@ -47,13 +47,29 @@ function getSelectionCoords() {
     }
     return { x: x, y: y };
 }
-$("table").delegate('td','mouseover mouseleave', function(e) {
-    if (e.type == 'mouseover') {
-      $(this).parent().addClass("hover");
-      $("colgroup").eq($(this).index()).addClass("hover");
-    }
-    else {
-      $(this).parent().removeClass("hover");
-      $("colgroup").eq($(this).index()).removeClass("hover");
-    }
+$("td.pixel").mousedown(function() {
+    var on = 1;
+    var start_x = $(this).attr('col');
+    var start_y = $(this).attr('row');
+    var end_x = $(this).attr('col');
+    var end_y = $(this).attr('row');        
+    $(this).css('background-color','white');
+		$("td.pixel").hover(function() {
+		  if (on == 1) {
+              var end_x = $(this).attr('col');
+              var end_y = $(this).attr('row');
+              for (x = parseInt(start_x); x < parseInt(end_x)+1; x++) { 
+                  for (y = parseInt(start_y); y < parseInt(end_y)+1; y++) {
+                    console.log('coloring:[col='+x+'][row='+y+']');
+                    $('td.pixel[col='+x+'][row='+y+']').css('background-color','white');
+                  };
+              };              
+		  };
+		});
+	$("td.pixel").mouseup(function() {	  
+	  on = 0;
+      console.log('sx['+start_x+'], sy['+start_y+'], ex['+end_x+'], ey['+end_y+']');
+	});
 });
+
+

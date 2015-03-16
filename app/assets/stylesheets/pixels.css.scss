@@ -14,8 +14,11 @@ table.pixels {
      margin: 0;
      width: 5px;
      height: 5px;
+     cursor: cell;
    }  
 }
+td.hover {background-color: #eee}
+
 td._000 {background-color: #000}
 td._003 {background-color: #003}
 td._006 {background-color: #006}
