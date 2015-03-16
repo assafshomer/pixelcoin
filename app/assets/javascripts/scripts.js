@@ -46,7 +46,7 @@ function getSelectionCoords() {
         }
     }
     return { x: x, y: y };
-}
+};
 $("td.pixel").mousedown(function() {
     var on = 1;
     var start_x = $(this).attr('col');
@@ -70,5 +70,3 @@ $("td.pixel").mousedown(function() {
       // console.log('sx['+start_x+'], sy['+start_y+'], ex['+end_x+'], ey['+end_y+']');
 	});
 });
-
-
