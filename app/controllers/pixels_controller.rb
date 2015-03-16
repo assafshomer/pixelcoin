@@ -18,10 +18,10 @@ class PixelsController < ApplicationController
   end
 
   def save
-    @x_min = params[:x_min]
-    @y_min = params[:y_min]
-    @x_max = params[:x_max]
-    @y_max = params[:y_max]    
+    @x_min = params[:x_min].to_i
+    @y_min = params[:y_min].to_i
+    @x_max = params[:x_max].to_i
+    @y_max = params[:y_max].to_i
   end
 
 end

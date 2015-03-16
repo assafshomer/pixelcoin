@@ -4,16 +4,16 @@ h3
 	.form-inline
 		.form-group
 			= label_tag('x_min',"Left Column: ", class: "label-tweak")
-			= text_field_tag("", '', id: 'x_min', class: 'input input-small')
+			= text_field_tag('x_min', '', id: 'x_min', class: 'input input-small')
 		.form-group
 			= label_tag('y_min',"Top Row: ", class: "label-tweak")
-			= text_field_tag("", '', id: 'y_min', class: 'input input-small')
+			= text_field_tag('y_min', '', id: 'y_min', class: 'input input-small')
 		.form-group
 			= label_tag('x_max',"Right Column: ", class: "label-tweak")
-			= text_field_tag("", '', id: 'x_max', class: 'input input-small')
+			= text_field_tag('x_max', '', id: 'x_max', class: 'input input-small')
 		.form-group
 			= label_tag('y_max',"Bottom Row: ", class: "label-tweak")
-			= text_field_tag("", '', id: 'y_max', class: 'input input-small')
+			= text_field_tag('y_max', '', id: 'y_max', class: 'input input-small')
 		hr
 		.form-group#buypix.hidden
 			= button_tag(type: "submit", id: "save", class: "btn btn-large btn-success", data: { disable_with: "<i class='icon-refresh icon-white'></i>" } ) do
