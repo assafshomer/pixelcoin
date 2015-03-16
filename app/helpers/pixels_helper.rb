@@ -22,6 +22,6 @@ module PixelsHelper
     3.times do
       color << hex.sample
     end
-    return '_'+color
+    return color
   end
 end
