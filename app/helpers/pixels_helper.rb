@@ -8,7 +8,7 @@ module PixelsHelper
     size.times do |x|
       row << x
       size.times do |y|
-        row << [y,get_color,0, Bitcoin::Key.generate.addr]
+        row << [y,get_color,0, 1]
       end
       data << row
       row = []
