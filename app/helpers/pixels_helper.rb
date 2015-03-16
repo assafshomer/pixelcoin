@@ -2,12 +2,12 @@ module PixelsHelper
   require 'bitcoin'
   include VanityHelper
   
-  def prepare_pixesl_array(size)
+  def prepare_pixesl_array(dimensions)
     data = []
     row = []
-    size.times do |x|
+    dimensions[:y].times do |x|
       row << x
-      size.times do |y|
+      dimensions[:x].times do |y|
         row << [y,get_color,0, 1]
       end
       data << row
