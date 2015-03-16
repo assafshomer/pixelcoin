@@ -53,18 +53,20 @@
         $(this).css('background-color','white');
             $("td.pixel").hover(function() {
               if (on == 1) {
+                $(this).css('background-color','white');
                   var end_x = $(this).attr('col');
                   var end_y = $(this).attr('row');
-                  for (x = parseInt(start_x); x < parseInt(end_x)+1; x++) { 
-                      for (y = parseInt(start_y); y < parseInt(end_y)+1; y++) {                
-                        $('td.pixel[col='+x+'][row='+y+']').css('background-color','white');
-                      };
-                  };              
+                    $("td.pixel").mouseup(function() {    
+                      on = 0;
+                         for (x = parseInt(start_x); x < parseInt(end_x)+1; x++) { 
+                              for (y = parseInt(start_y); y < parseInt(end_y)+1; y++) {
+                                $('td.pixel[col='+x+'][row='+y+']').css('background-color','white');
+                              };
+                          };
+                    });                  
+               
               };
             });
-        $("td.pixel").mouseup(function() {    
-          on = 0;
-          // console.log('sx['+start_x+'], sy['+start_y+'], ex['+end_x+'], ey['+end_y+']');
-        });
+
     });     
 </script>
