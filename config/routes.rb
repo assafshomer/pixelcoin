@@ -1,9 +1,9 @@
 Pixelcoin::Application.routes.draw do
 
-  root       to: 'static_pages#pixels'
+  root       to: 'pixels#pixels'
 
-  match "/home",           to: 'static_pages#home',              via: :get
-  match "/pixels",           to: 'static_pages#pixels',              via: :get
-  match "/vanity",           to: 'static_pages#vanity',              via: :get
-  post "static_pages/save"
+  match "/home",           to: 'pixels#home',              via: :get
+  match "/pixels",           to: 'pixels#pixels',              via: :get
+  match "/vanity",           to: 'pixels#vanity',              via: :get
+  post "pixels/save"
 end

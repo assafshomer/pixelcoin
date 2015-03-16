@@ -1,4 +1,4 @@
-class StaticPagesController < ApplicationController
+class PixelsController < ApplicationController
   
   include PixelsHelper
 
@@ -18,7 +18,10 @@ class StaticPagesController < ApplicationController
   end
 
   def save
-    
+    @x_min = params[:x_min]
+    @y_min = params[:y_min]
+    @x_max = params[:x_max]
+    @y_max = params[:y_max]    
   end
 
 end

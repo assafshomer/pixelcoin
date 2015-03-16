@@ -1,7 +1,7 @@
 require 'spec_helper'
 include ViewsHelper
 
-describe "Static" do
+describe "Pixels" do
 	subject { page }
   describe "App Home page" do
     before { visit pixels_path }    
