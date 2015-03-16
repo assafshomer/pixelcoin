@@ -1,13 +1,20 @@
-= form_tag({action: :save}, html: {:class => "form-horizontal"})
-	.form-group
-		= text_field_tag("", '', id: 'x_min', placeholder: 'left column', class: 'input input-small')
-	.form-group
-		= text_field_tag("", '', id: 'y_min', placeholder: 'top row', class: 'input input-small')
-	.form-group
-		= text_field_tag("", '', id: 'x_max', placeholder: 'right column', class: 'input input-small')
-	.form-group
-		= text_field_tag("", '', id: 'y_max', placeholder: 'bottom row', class: 'input input-small')						
-	.form-group#buypix.hidden
-		= button_tag(type: "submit", id: "save", class: "btn btn-large btn-success", data: { disable_with: "<i class='icon-refresh icon-white'></i>" } ) do
-				i.icon-plus.icon-white
-				= ' '+ buy_pixels_text
+br
+= form_tag({action: :save})
+	.form-inline
+		.form-group
+			= label_tag('x_min',"Left Column: ", class: "label-tweak")
+			= text_field_tag("", '', id: 'x_min', class: 'input input-small')
+		.form-group
+			= label_tag('y_min',"Top Row: ", class: "label-tweak")
+			= text_field_tag("", '', id: 'y_min', class: 'input input-small')
+		.form-group
+			= label_tag('x_max',"Right Column: ", class: "label-tweak")
+			= text_field_tag("", '', id: 'x_max', class: 'input input-small')
+		.form-group
+			= label_tag('y_max',"Bottom Row: ", class: "label-tweak")
+			= text_field_tag("", '', id: 'y_max', class: 'input input-small')
+		hr
+		.form-group#buypix.hidden
+			= button_tag(type: "submit", id: "save", class: "btn btn-large btn-success", data: { disable_with: "<i class='icon-refresh icon-white'></i>" } ) do
+					i.icon-plus.icon-white
+					= ' '+ buy_pixels_text
