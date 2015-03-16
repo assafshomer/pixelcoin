@@ -15,6 +15,4 @@
 //= require bootstrap
 //= require jquery-fileupload
 //= require tooltip
-//= require scripts
-//= require pixels
 //= require_tree .
