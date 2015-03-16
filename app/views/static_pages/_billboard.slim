@@ -1,0 +1,9 @@
+div.billboard
+	table.pixels style="margin-left:auto;margin-right:auto;"
+	  - @pixels.each do |row|
+	  	- y_coor = row[0]
+	    tr	    	
+	     - row.drop(1).each do |pixel|
+	     	- x_coor = pixel[0]
+	     	- color = pixel[1]
+	       	td class="pixel #{color}" col="#{x_coor}" row="#{y_coor}"
