@@ -4,12 +4,12 @@ class StaticPagesController < ApplicationController
 
   def home
     @title = 'canvas'
-    @pixels = prepare_pixesl_array(PIXELS)
+    @pixels = prepare_pixels_grid(PIXELS)
   end
 
   def pixels
     @title = app_title
-    @pixels = prepare_pixesl_array(PIXELS)   
+    @pixels = prepare_pixels_grid(PIXELS)   
   end
   
   def vanity

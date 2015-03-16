@@ -2,21 +2,21 @@ module PixelsHelper
   require 'bitcoin'
   include VanityHelper
   
-  def prepare_pixesl_array(dimensions)
-    data = []
-    row = []
-    dimensions[:y].times do |x|
-      row << x
-      dimensions[:x].times do |y|
-        row << [y,get_color,0, 1]
+  def prepare_pixels_grid(dimensions)
+    grid = []
+    column = []
+    dimensions[:y].times do |y|
+      column << y
+      dimensions[:x].times do |x|
+        column << [x,get_random_color,0, 1]
       end
-      data << row
-      row = []
+      grid << column
+      column = []
     end
-    return data
+    return grid
   end
 
-  def get_color
+  def get_random_color
     hex = ['0','3','6','9','c','f']
     color = ''
     3.times do
