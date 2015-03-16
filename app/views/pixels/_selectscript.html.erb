@@ -45,6 +45,7 @@
         return { x: x, y: y };
     };
     var select = 0;
+    var targetcolor='white';
     $("td.pixel").mousedown(function() {
         select++;
         var start_x = $(this).attr('col');
@@ -54,8 +55,8 @@
         var x_min = Math.min(end_x, start_x);
         var x_max = Math.max(end_x, start_x);
         var y_min = Math.min(end_y, start_y);
-        var y_max = Math.max(end_y, start_y);                    
-        $(this).css('background-color','white');
+        var y_max = Math.max(end_y, start_y);
+        if (select == 1) {$(this).css('background-color',targetcolor);};        
             $("td.pixel").hover(function() {
               if (select == 1) {
                   end_x = $(this).attr('col');
@@ -81,7 +82,7 @@
           y_max = Math.max(end_y, start_y);          
             $('td.pixel').filter(function() {
               return $(this).attr("col") >= x_min && $(this).attr("col") <= x_max && $(this).attr("row") >= y_min && $(this).attr("row") <= y_max;
-            }).css('background-color','white');
+            }).css('background-color',targetcolor);
             $('#x_min')[0].value=x_min+1;
             $('#y_min')[0].value=y_min+1;
             $('#x_max')[0].value=x_max+1;

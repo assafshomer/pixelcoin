@@ -8,7 +8,7 @@ module PixelsHelper
     dimensions[:y].times do |y|
       column << y
       dimensions[:x].times do |x|
-        column << [x,get_random_color,0, 1]
+        column << [x,'bbb',0, 1]
       end
       grid << column
       column = []
