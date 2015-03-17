@@ -5,8 +5,9 @@ html
       = @title
     = render 'layouts/favicon'
     = render 'layouts/shim'
-  body
+  body class="background"
     = render 'layouts/includes'
+    = render 'layouts/nav'
     = render 'layouts/flash'
     = yield
     / = render 'layouts/debug'

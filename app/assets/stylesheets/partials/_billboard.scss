@@ -1,0 +1,20 @@
+$gray-light: red;
+
+.billboard-leg {
+	background-image: url('../images/billboard-leg-daylight.png');
+	background-position: center;
+	background-size: cover;
+	width: 101%;
+	height: 126px;
+	margin-left: -5px;
+}
+
+.billboard-section {
+	color: $gray-light;
+	background-image: url('../images/grid-pattern-10x10.png');
+	background-color: white;
+	width: 250px;
+	height: 200px;
+	float: left;
+}
+
