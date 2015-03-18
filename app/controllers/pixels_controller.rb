@@ -2,19 +2,11 @@ class PixelsController < ApplicationController
   
   include PixelsHelper
 
-  def home
-    @title = 'canvas'
-    @pixels = prepare_pixels_grid
-    @granularity = APP_CONFIG['granularity']
-    @columns = APP_CONFIG['columns']
-    @rows = APP_CONFIG['rows']
-    @width = @columns*@granularity
-    @height = @rows*@granularity
-  end
-
   def pixels
     @title = app_title
-    @pixels = prepare_pixels_grid  
+    @pixels = prepare_pixels_grid
+    @columns = APP_CONFIG['columns']
+    @rows = APP_CONFIG['rows']
   end
   
   def vanity
