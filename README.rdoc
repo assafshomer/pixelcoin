@@ -1,6 +1,6 @@
-= [The Blockchain Billboard](http://blockchainbillboard.herokuapp.com)
+# [The Blockchain Billboard](http://blockchainbillboard.herokuapp.com)
 
-== setup
+### setup
 grid size controlled by local file /config/app_config.yml, e.g:
 ```
 columns: 250
