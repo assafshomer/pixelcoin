@@ -5,6 +5,11 @@ class PixelsController < ApplicationController
   def home
     @title = 'canvas'
     @pixels = prepare_pixels_grid
+    @granularity = APP_CONFIG['granularity']
+    @columns = APP_CONFIG['columns']
+    @rows = APP_CONFIG['rows']
+    @width = @columns*@granularity
+    @height = @rows*@granularity
   end
 
   def pixels

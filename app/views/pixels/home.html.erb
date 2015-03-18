@@ -1,21 +1,23 @@
-<div id="focusArea" onmousemove="getPos(event)" onmouseout="stopTracking()">
-  <canvas id="millionbits" width="500" height="500" style="border:1px solid #c3c3c3;">
+<div id="billboard" class="center" >
+  <canvas id="millionbits" width="<%= @width %>" height="<%= @height %>" style="border:1px solid #c3c3c3;" onmousemove="getPos(event)" onmouseout="stopTracking()">
     | Your browser does not support the HTML5 canvas tag.
   </canvas>
 </div>
 <p id="displayArea">
 </p>
-<div>
-  <%= @pixels %>
-</div>
-
 
 <script type="text/javascript">
   var c = document.getElementById("millionbits");
   var ctx = c.getContext("2d");
-  <% @pixels.each do |pixel| %>
-    ctx.fillStyle = "#FF0000";
-    ctx.fillRect(<%= pixel[0] %>,<%= pixel[1] %>,<%= pixel[0]+3 %>,<%= pixel[1]+3 %>);
+  <% gran = @granularity %>
+  <% @pixels.each do |row| %>
+    <% y_coor = row[0]*gran  %>    
+    <% row.drop(1).each do |pixel| %>
+      <% x_coor = pixel[0]*gran %>
+      <% color = pixel[1] %>
+        ctx.fillStyle = '#<%= get_random_color %>';
+        ctx.fillRect(<%= x_coor %>,<%= y_coor %>,<%= x_coor+gran %>,<%= y_coor+gran %>);
+    <% end %>
   <% end %>
 </script>
 <script>
@@ -23,9 +25,7 @@
       x=e.clientX;
       y=e.clientY;
       cursor="Your Mouse Position Is : " + x + " and " + y ;
-      pixels = " <%= @pixels.as_json.to_s.html_safe %> ";
-      // cursor = "Your Bitcoin Address is: "+json(json.length-1);
-      document.getElementById("displayArea").innerHTML=cursor
+      document.getElementById("displayArea").innerHTML=cursor;
   }
 
   function stopTracking(){
