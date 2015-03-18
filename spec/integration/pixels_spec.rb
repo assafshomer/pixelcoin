@@ -19,5 +19,9 @@ describe "Pixels" do
     before { visit about_path }
     it { should have_title 'About' }
   end
-  
+  describe "blog" do
+    before { visit blog_path }
+    it { should have_title 'Blog' }      
+  end
+
 end 
