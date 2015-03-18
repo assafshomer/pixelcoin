@@ -21,5 +21,11 @@ class PixelsController < ApplicationController
     @y_max = params[:y_max].to_i
     @num = (@x_max-@x_min+1)*(@y_max-@y_min+1)
   end
+  def about
+    @title = 'About'
+  end
+  def blog
+    @title = 'Blog'
+  end  
 
 end
