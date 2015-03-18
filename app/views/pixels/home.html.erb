@@ -1,7 +1,11 @@
 <div id="billboard" class="center" >
-  <canvas id="millionbits" width="<%= @width %>" height="<%= @height %>" style="border:1px solid #c3c3c3;" onmousemove="getPos(event)" onmouseout="stopTracking()">
-    | Your browser does not support the HTML5 canvas tag.
-  </canvas>
+  <div class='ghost-select'>
+    <span>
+      <canvas id="millionbits" width="<%= @width %>" height="<%= @height %>" style="border:1px solid #c3c3c3;" xonmousemove="getPos(event)" xonmouseout="stopTracking()">
+        | Your browser does not support the HTML5 canvas tag.
+      </canvas>      
+    </span>
+  </div>
 </div>
 <p id="displayArea">
 </p>
@@ -15,20 +19,8 @@
     <% row.drop(1).each do |pixel| %>
       <% x_coor = pixel[0]*gran %>
       <% color = pixel[1] %>
-        ctx.fillStyle = '#<%= get_random_color %>';
+        ctx.fillStyle = '#bbb';
         ctx.fillRect(<%= x_coor %>,<%= y_coor %>,<%= x_coor+gran %>,<%= y_coor+gran %>);
     <% end %>
   <% end %>
-</script>
-<script>
-  function getPos(e){
-      x=e.clientX;
-      y=e.clientY;
-      cursor="Your Mouse Position Is : " + x + " and " + y ;
-      document.getElementById("displayArea").innerHTML=cursor;
-  }
-
-  function stopTracking(){
-      document.getElementById("displayArea").innerHTML="";
-  }
 </script>

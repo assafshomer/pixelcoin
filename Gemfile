@@ -20,7 +20,7 @@ gem 'quiet_assets', '~> 1.0.3'
 gem 'coffee-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'jbuilder', '~> 1.2'
-
+gem 'gon'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
