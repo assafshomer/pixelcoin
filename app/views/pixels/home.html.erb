@@ -1,5 +1,5 @@
 <div id="billboard" class="center" >
-  <canvas id="millionbits" width="<%= @width %>" height="<%= @height %>" style="border:1px solid #c3c3c3;" onmousemove="getPos(event)" onmouseout="stopTracking()">
+  <canvas id="millionbits" class="ghost-select" width="<%= @width %>" height="<%= @height %>" style="border:1px solid #c3c3c3;" onmousemove="getPos(event)" onmouseout="stopTracking()">
     | Your browser does not support the HTML5 canvas tag.
   </canvas>
 </div>
@@ -7,18 +7,21 @@
 </p>
 <p id="initpos">
 </p>
+<p id="finpos">
+</p>
 <script type="text/javascript">
   var c = document.getElementById("millionbits");
   var ctx = c.getContext("2d");
-  <% gran = @granularity %>
-  <% @pixels.each do |row| %>
-    <% y_coor = row[0]*gran  %>    
-    <% row.drop(1).each do |pixel| %>
-      <% x_coor = pixel[0]*gran %>
-      <% color = pixel[1] %>
-        // ctx.fillStyle = '#<%= get_random_color %>';
-        ctx.fillStyle = '#bbb';
-        ctx.fillRect(<%= x_coor %>,<%= y_coor %>,<%= x_coor+gran %>,<%= y_coor+gran %>);
-    <% end %>
-  <% end %>
+  // <% gran = @granularity %>
+  // <% @pixels.each do |row| %>
+  //   <% y_coor = row[0]*gran  %>    
+  //   <% row.drop(1).each do |pixel| %>
+  //     <% x_coor = pixel[0]*gran %>
+  //     <% color = pixel[1] %>
+  //       // ctx.fillStyle = '#<%= get_random_color %>';
+  //       ctx.fillStyle = '#bbb';
+  //       ctx.fillRect(<%= x_coor %>,<%= y_coor %>,<%= x_coor+gran %>,<%= y_coor+gran %>);
+  //   <% end %>
+  // <% end %>
+  clearCanvas();
 </script>

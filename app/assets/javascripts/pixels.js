@@ -1,6 +1,3 @@
-function foo() {
-	console.log('foo');
-};
 function getSelectionCoords() {
   var sel = document.selection, range, rects, rect;
   var x = 0, y = 0;
