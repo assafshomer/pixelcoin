@@ -2,7 +2,7 @@ module PixelsHelper
   require 'bitcoin'
   include VanityHelper
   
-  def prepare_pixels_grid(dimensions)
+  def prepare_pixels_grid(dimensions = PIXELS)
     grid = []
     column = []
     dimensions[:y].times do |y|
